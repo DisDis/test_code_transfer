@@ -1,0 +1,16 @@
+name: test_app
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+# homepage: https://www.example.com
+# author: dis <email@example.com>
+
+environment:
+  sdk: '>=2.0.0-dev.68.0 <3.0.0'
+
+dependencies:
+  test_lib2:
+    path: ../test_lib2
+  test_lib1:
+     path: ../test_lib1
+  code_health_meta:
+     path: ../../code_health_meta
