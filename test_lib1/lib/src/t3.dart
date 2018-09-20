@@ -1,6 +1,8 @@
+import 'package:code_health_meta/code_health_meta.dart';
 import 'package:test_lib1/src/t1.dart';
 import 'package:test_lib1/src/t2.dart';
 
+@CHTransfer(dest:'src/new_lib1_t3.dart')
 class T3_2 extends T2{
 
 }
